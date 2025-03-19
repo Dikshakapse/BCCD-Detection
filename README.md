@@ -1,4 +1,4 @@
-🩸 BCCD Blood Cell Detection with YOLOv10
+**🩸 BCCD Blood Cell Detection with YOLOv10**
 This project fine-tunes YOLOv10 on the BCCD dataset to detect three types of blood cells:
 
 Red Blood Cells (RBCs)
@@ -42,7 +42,7 @@ Run the App:
 python app.py
 Access the App:
 
-Open the URL shown in the terminal (usually http://127.0.0.1:7860) in your browser.
+Open the URL shown in the terminal in your browser.
 
 Technologies Used
 YOLOv10
@@ -51,7 +51,7 @@ Ultralytics
 Gradio
 Google Colab
 
-References
-YOLOv10 Documentation
-Gradio Documentation
-BCCD Dataset
+📚 References  
+- [YOLOv10 Documentation](https://docs.ultralytics.com/models/yolov10/)  
+- [Gradio Documentation](https://gradio.app)  
+- [BCCD Dataset](https://github.com/Shenggan/BCCD_Dataset) 
