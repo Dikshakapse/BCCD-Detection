@@ -12,39 +12,42 @@ It also includes a web app built with Gradio for easy interaction.
 Check out the deployed web app on Hugging Face:  
 **[BCCD Blood Cell Detection App](https://huggingface.co/spaces/Diksha333/bccd-blood-cell-detection)**  
 
----
+
 
 ## 📥 Dataset  
 - **Source:** [BCCD Dataset](https://github.com/Shenggan/BCCD_Dataset)  
 - **Classes:** RBC, WBC, Platelet  
 - **Images:** 364 images for training and testing  
 
----
+
 
 ## 📁 Project Structure  
 BCCD-Blood-Cell-Detection/ ├── app.py # Gradio App for Inference ├── requirements.txt # Dependencies ├── best.pt # Fine-tuned YOLOv10 Model (Not Uploaded, Link Below) └── README.md
 
----
 
-## 🏋️ Model Weights  
+
+##  Model Weights  
 The `best.pt` file is too large to upload to GitHub. Download it from the link below:  
 
 [🔗 **Download best.pt**](https://drive.google.com/drive/folders/1VjgQPBxJVfWxxYO975pTk0PvhHwjskCy?usp=drive_link)  
 
----
 
-## 🏗️ Installation and Setup  
+
+##  Installation and Setup  
 
 1. **Clone the Repository:**  
 ```bash
 git clone https://github.com/DikshaKapse/BCCD-Detection.git
 cd BCCD-Blood-Cell-Detection
+
 2.Install Dependencies:
 pip install -r requirements.txt
+
 3.Download Model Weights:
 The best.pt file is too large to upload to GitHub. Download it from the link below:
 
 [🔗 Download best.pt](https://drive.google.com/drive/folders/1VjgQPBxJVfWxxYO975pTk0PvhHwjskCy?usp=drive_link)
+
 4.Run the App:
 python app.py
 
