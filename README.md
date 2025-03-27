@@ -1,4 +1,4 @@
-# 🩸 BCCD Blood Cell Detection with YOLOv10
+# BCCD Blood Cell Detection with YOLOv10
 
 This project fine-tunes YOLOv10 on the BCCD dataset to detect three types of blood cells:
 
@@ -8,20 +8,20 @@ This project fine-tunes YOLOv10 on the BCCD dataset to detect three types of blo
 
 It also includes a web app built with Gradio for easy interaction.  
 
-## 🚀 Live Demo  
+## Live Demo  
 Check out the deployed web app on Hugging Face:  
 **[BCCD Blood Cell Detection App](https://huggingface.co/spaces/Diksha333/bccd-blood-cell-detection)**  
 
 
 
-## 📥 Dataset  
+## Dataset  
 - **Source:** [BCCD Dataset](https://github.com/Shenggan/BCCD_Dataset)  
 - **Classes:** RBC, WBC, Platelet  
 - **Images:** 364 images for training and testing  
 
 
 
-## 📁 Project Structure  
+## Project Structure  
 BCCD-Blood-Cell-Detection/ ├── app.py # Gradio App for Inference ├── requirements.txt # Dependencies ├── best.pt # Fine-tuned YOLOv10 Model (Not Uploaded, Link Below) └── README.md
 
 
@@ -29,7 +29,7 @@ BCCD-Blood-Cell-Detection/ ├── app.py # Gradio App for Inference ├──
 ##  Model Weights  
 The `best.pt` file is too large to upload to GitHub. Download it from the link below:  
 
-[🔗 **Download best.pt**](https://drive.google.com/drive/folders/1VjgQPBxJVfWxxYO975pTk0PvhHwjskCy?usp=drive_link)  
+[ **Download best.pt**](https://drive.google.com/drive/folders/1VjgQPBxJVfWxxYO975pTk0PvhHwjskCy?usp=drive_link)  
 
 
 
@@ -61,7 +61,7 @@ Ultralytics
 Gradio
 Google Colab
 
-📚 References  
+ References  
 - [YOLOv10 Documentation](https://docs.ultralytics.com/models/yolov10/)  
 - [Gradio Documentation](https://gradio.app)  
 - [BCCD Dataset](https://github.com/Shenggan/BCCD_Dataset) 
